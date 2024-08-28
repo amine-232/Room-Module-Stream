@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const http = require("http");
-const webrtc = require("wrtc"); // Ensure you have 'wrtc' package installed
+const webrtc = require("wrtc"); // Ensure you have 'wrtc' package installed please check the new version with update code no need for wbrtc using peer to peer connection
 
 const socketIO = require("socket.io");
 const server = http.createServer(app);
